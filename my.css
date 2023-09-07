@@ -37,7 +37,6 @@
     }
     .span {
         color: #10f7fb;
-        font: bold;
     }
     .name {
         margin-top: 130px;
@@ -53,5 +52,40 @@
         font-family: 'Neuton', serif;
         margin-top: 0;
         margin: 0;
+
+    }
+    .bg2 {
+      background-color: gray;
+    }
+    .Aboutme {
+      text-align: center;
+      font-size: 60px;
+      padding-top: 200px;
+      margin: 0;
+      font-family: 'Neuton', serif;
+    }
+    .description {
+      text-align: center;
+      font-size: 30px;
+      padding-left: 200px;
+      padding-right: 200px;
+      padding-bottom: 250px;
+      margin: 0;
+    }
+    .bg3{
+      background-color: black;
+    }
+    .myportfolio {
+      text-align: center;
+      font-size: 60px;
+      padding: 50px;
+      margin-top: 0;
+      margin: 0;
+      font-family: 'Neuton', serif;
+      color: white;
+    }
+    .picture {
+      margin-left: auto;
+     margin-right: auto;
 
     }
