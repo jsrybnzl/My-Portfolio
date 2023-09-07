@@ -1,0 +1,57 @@
+.header {
+    text-align: left;
+    background: transparent;
+    margin-left: 300px;
+    color: white;
+}
+    .topnav {
+        overflow: hidden;
+        background-color: transparent;
+        opacity: .90;
+      }
+      
+      .topnav a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 27px;   
+        margin-top: 18px; 
+        font-family: 'Cantora One', sans-serif;
+      }
+      
+      .topnav a:hover {
+        background-color: gray;
+        color: black;
+      }
+      
+      .topnav a.active {
+        background-color: none;
+        color: black;
+    }
+    .portfolio {
+       margin-left: 200px;
+       margin-top: 27px; 
+       font-size: 40px;
+    }
+    .span {
+        color: #10f7fb;
+        font: bold;
+    }
+    .name {
+        margin-top: 130px;
+        text-align: center;
+        font-size: 80px;
+        color: rgb(39, 182, 134);
+        font-family: 'Neuton', serif;
+    }
+    .subname {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(39, 182, 134);
+        font-family: 'Neuton', serif;
+        margin-top: 0;
+        margin: 0;
+
+    }
