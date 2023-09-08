@@ -17,8 +17,11 @@
         padding: 14px 16px;
         text-decoration: none;
         font-size: 27px;   
-        margin-top: 18px; 
+        margin-top: 5px; 
         font-family: 'Cantora One', sans-serif;
+        display: flex; /* 1 */
+        justify-content: space-between; /* 2 */
+        margin-top: 45px;
       }
       
       .topnav a:hover {
@@ -32,8 +35,9 @@
     }
     .portfolio {
        margin-left: 200px;
-       margin-top: 27px; 
+       margin-top: 50px; 
        font-size: 40px;
+       position: inherit;
     }
     .span {
         color: #10f7fb;
@@ -55,14 +59,15 @@
 
     }
     .bg2 {
-      background-color: gray;
+      background-color: black;
     }
     .Aboutme {
       text-align: center;
       font-size: 60px;
-      padding-top: 200px;
+      padding-top: 150px;
       margin: 0;
       font-family: 'Neuton', serif;
+      color: white;
     }
     .description {
       text-align: center;
@@ -71,9 +76,10 @@
       padding-right: 200px;
       padding-bottom: 250px;
       margin: 0;
+      color: white;
     }
     .bg3{
-      background-color: black;
+      background-color: gray;
     }
     .myportfolio {
       text-align: center;
@@ -82,10 +88,88 @@
       margin-top: 0;
       margin: 0;
       font-family: 'Neuton', serif;
-      color: white;
+      color: Black;
     }
     .picture {
       margin-left: auto;
      margin-right: auto;
-
+     }
+     .button {
+      text-align: center;
+      margin-left: 680px;
+      Margin-right: 650px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      padding: 25px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 30px;
+      color: black;
+      background: rgb(19, 212, 19);
+     }
+     .bg4 {
+     background-color: black;
+     }
+     .contactme {
+      text-align: left;
+      font-size: 110px;
+      padding: 50px;
+      padding-bottom: 0;
+      margin-bottom: 10px;
+      margin-top: 0;
+      margin-left: 100px;
+      font-family: 'Neuton', serif;
+      color: white;
     }
+    .logo {
+      margin-left: 170px;
+      margin-top: 0;
+      color: white;
+      font-size: 25px;
+      padding-right: 100px;
+      margin-bottom: 20px;
+    }
+    .button2 {
+      margin-left: 170px;
+      font-size: 25px;
+      color: White;
+      background: rgb(19, 212, 19);
+      padding: 15px;
+    }
+    .form {
+      color: white;
+      margin-left: 170px;
+    }
+    .columns {
+      text-align: left;
+      padding-left: 100px;
+      padding-top: 0px;
+      margin-top: 0;
+    }
+    .table {
+      background-color: lightgray;
+      border: 5px solid black;
+      text-align: left;
+      padding-right: 600px;
+    }
+    .table2 {
+      background-color: lightgray;
+      border: 5px solid black;
+      text-align: left;
+      padding-right: 600px;
+      Padding-bottom: 250px;
+    }
+
+    .button3 {
+      text-align: center;
+      margin-left: 560px;
+      Margin-right: 650px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      padding: 25px;
+      padding-top: 20px;
+      padding-bottom: 15px;
+      font-size: 30px;
+      color: white;
+      background: rgb(19, 212, 19);
+     }
