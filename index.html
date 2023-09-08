@@ -21,6 +21,11 @@
         position: relative;
         margin-top: 0;
         }
+        input {
+            width: 580px;
+            height: 50px;
+            font-size: 20px;
+            }
     
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -60,9 +65,9 @@
     <table>
         <tbody>
             <div class="picture">
-            <td><img src="background3.jpg" alt="photo" height="600px" width="500px"></td>
-            <td><img src="background4.jpg" alt="photo" height="600px" width="500px"></td>
-            <td><img src="background5.jpg" alt="photo" height="600px" width="500px"></td>
+            <td class="picture"><img src="background3.jpg" alt="photo" height="450px" width="400px"></td>
+            <td><img src="background4.jpg" alt="photo" height="450px" width="400px"></td>
+            <td><img src="background5.jpg" alt="photo" height="450px" width="400px"></td>
             </div>
         </tbody>
     </table>
@@ -73,29 +78,41 @@
     <div class="bg4">
     <h4 class="contactme">Contact Me</h4>
     <table>
-        <thead>
-            <tr>
-            <th><h5 class="logo"><img src="Emailadd2.png" alt="Logo" height="20px" width="20px">&nbsp;&nbsp;&nbsp;jsrybnzl@gmail.com</h5></th>
-    <div class="form">
-    <form action="#"> 
-        <th class="table">Your Name</th>
-        </tr>     
-        </thead>  
         <tbody>
             <tr>
-            <td><h6 class="logo"><img src="Phone2.png" alt="Logo" height="20px" width="20px">&nbsp;&nbsp;&nbsp;+63 975 393 2272</h6></td>
-            <td class="table">Your Email Address</td>
-            <tr>
-            <td><button class="button2">Download CV</button></td>
-            <td class="table2">Your Message</td>
-             </tr>
+                <td>
+                    <h5 class="logo"><img src="Email-removebg-preview (1).png" alt="Logo" height="30px" width="30px">&nbsp;&nbsp;&nbsp;jsrybnzl@gmail.com</h5>
+                    <h6 class="logo"><img src="phonee-removebg-preview.png" alt="Logo" height="30px" width="30px">&nbsp;&nbsp;&nbsp;+63 975 393 2272</h6> 
+                    <div class="logo2">
+                        <br>
+                        <br>
+                        <img src="Facebook-removebg-preview.png" alt="logo" height="50px" width="50px">&nbsp;&nbsp;<img src="download-removebg-preview.png" alt="logo" height="50px" width="50px">&nbsp;&nbsp;<img src="OLJ-removebg-preview.png" alt="logo" height="50px" width="50px">
+                    <br>
+                    <br></div>
+                    <button class="button2">Download CV</button>
+                </td>
+                <td class="table">
+    <form action="#">         
+                <label for="name"></label>
+                <input type="text" name="name" id="name" value="Name">
+                <br>
+                <label for="EmailAddress"></label> 
+                <input type="text" name="EmailAddress" id="EmailAddress" value="Sample@gmail.com">   
+                <br>
+                <label for="message"></label> 
+                <textarea name="message" id="message" cols="77" rows="15" Font-size="20px">Your Message</textarea>
+    </form>              
+                </td>
+            </tr>
+        </tbody>
+    </table>
            
     </form>
-    </div>
     </tr>
     </tbody>
     </table>
     <button class="button3">Submit</button>
+    </div>
     </div>
     </div>
 </body>
