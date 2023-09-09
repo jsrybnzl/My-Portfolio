@@ -17,7 +17,7 @@
         padding: 14px 16px;
         text-decoration: none;
         font-size: 27px;   
-        margin-top: 5px; 
+        margin-top: 0; 
         font-family: 'Cantora One', sans-serif;
         display: flex; /* 1 */
         justify-content: space-between; /* 2 */
@@ -40,13 +40,13 @@
        position: inherit;
     }
     .span {
-        color: #10f7fb;
+        color: rgb(39, 182, 134);
     }
     .name {
-        margin-top: 130px;
+        margin-top: 150px;
         text-align: center;
         font-size: 80px;
-        color: rgb(39, 182, 134);
+        color: white;
         font-family: 'Neuton', serif;
     }
     .subname {
@@ -136,6 +136,12 @@
       margin-bottom: 20px;
       padding-bottom: 10px;
     }
+    .logo:hover {background-color: #3e8e41}
+
+    .logo:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+    }
     .button2 {
       margin-left: 220px;
       font-size: 25px;
@@ -163,7 +169,8 @@
       margin-top: 0;
     }
     .table {
-      padding-top: 30px
+      padding-top: 30px;
+      background-color: transparent;
     }
     .button3 {
       text-align: center;
@@ -194,3 +201,15 @@
       font-size: 20px;
       font-family: 'Neuton', serif;
      }
+     .bg5 {
+      padding: 5px;
+      padding-top: 200px;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    .message {
+      border: 1px solid white;
+      color: white;
+      background-color: transparent;
+    }
