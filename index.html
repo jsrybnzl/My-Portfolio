@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JR's Porfolio</title>
     <style>
+        *{box-sizing:border-box}
+
         body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +16,7 @@
             width: 1518px;
         }
          .bg{
-            background-image: url(background7.jpg);
+            background-image: url(background8.jpg);
             background-repeat: no-repeat;
             background-position: center;
             height: 800px;
@@ -57,7 +59,7 @@
         <h1 class="portfolio">PORT<span class="span">FOLIO</span></h1>
     </div>
     <h2 class="name">JOSE ROY CAGALAWAN
-    <p class="subname">Full Stack Web Developer</p>
+    <p class="subname">Full-Stack Web Developer</p>
     </h2> 
     </div>
     <div id="About">
@@ -69,15 +71,72 @@
     <div id="Portfolio">
     <div class="bg3">
     <h3 class="myportfolio">MY PORTFOLIO</h3>
-    <table>
-        <tbody>
-            <div class="picture">
-            <td class="picture"><img src="background3.jpg" alt="photo" height="450px" width="400px"></td>
-            <td><img src="background4.jpg" alt="photo" height="450px" width="400px"></td>
-            <td><img src="background5.jpg" alt="photo" height="450px" width="400px"></td>
-            </div>
-        </tbody>
-    </table>
+    <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="Sample portfolio.png" style="width:100%">
+          <div class="text">QA Survey Website</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="sample2.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="sample3.png" style="width:100%">
+          <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="sample4.png" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>  
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
     <button class="button">See More</button>
     </div>
     </div>
