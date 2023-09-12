@@ -30,6 +30,7 @@
       }
       
       .topnav a.active {
+        padding-right: 100px;
         background-color: none;
         color: black;
     }

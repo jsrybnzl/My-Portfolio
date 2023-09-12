@@ -1,0 +1,51 @@
+@media only screen and (max-width: 280px){
+    .bg { 
+        width: 407px;
+        height: 326px;
+      }
+      .topnav a.active {
+          margin-right: 4px;
+          font-size: 11px;
+          justify-content: space-between;
+          padding: 7px 9px;
+          text-decoration: none;
+          margin-top: -8px;
+          text-align: center;
+          padding-left: 0px;
+      }
+      .topnav a {
+        float: right;
+        color: black;
+        text-align: center;
+        padding: 7px 0px;
+        text-decoration: none;
+        font-size: 11px;
+        margin-top: 0;
+        font-family: 'Cantora One', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -8px;
+        margin-right: 7px;
+}
+.portfolio {
+    margin-left: 44px;
+    margin-top: 3px;
+    font-size: 10px;
+    position: inherit;
+}
+.name {
+    margin-top: 94px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Neuton', serif;
+}
+.subname {
+    text-align: center;
+    font-size: 22px;
+    color: rgb(39, 182, 134);
+    font-family: 'Neuton', serif;
+    margin-top: 0;
+    margin: 0;
+}
+}
