@@ -1,7 +1,7 @@
 @media only screen and (max-width: 280px){
     .bg { 
-        width: 407px;
-        height: 326px;
+        width: 280px;
+        height: 305px;
       }
       .topnav a.active {
           margin-right: 4px;
@@ -28,8 +28,8 @@
         margin-right: 7px;
 }
 .portfolio {
-    margin-left: 44px;
-    margin-top: 3px;
+    margin-left: 16px;
+    margin-top: 2px;
     font-size: 10px;
     position: inherit;
 }
@@ -48,4 +48,69 @@
     margin-top: 0;
     margin: 0;
 }
+.Aboutme {
+    text-align: center;
+    font-size: 21px;
+    padding-top: 56px;
+    margin: 0;
+    font-family: 'Neuton', serif;
+    color: white;
 }
+
+.description {
+        text-align: center;
+        font-size: 9px;
+        padding-left: 21px;
+        padding-right: 28px;
+        padding-bottom: 229px;
+        padding-top: 23px;
+        margin: 0;
+        color: white;
+    }
+    .bg2 {
+        background-color: black;
+        height: 253px;}
+        .myportfolio {
+            text-align: center;
+            font-size: 14px;
+            padding: 18px;
+            margin-top: 0;
+            margin: 0;
+            font-family: 'Neuton', serif;
+            color: Black;
+        }
+        .bg3 {
+            background-color: gray;
+            height: 288px;
+        }
+        .button {
+            text-align: center;
+            margin-left: 74px;
+            Margin-right: 551px;
+            margin-bottom: 2px;
+            margin-top: 6px;
+            padding: 49px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 7px;
+            color: black;
+            background: rgb(19, 212, 19);
+        }
+        .contactme {
+            text-align: left;
+            font-size: 25px;
+            padding: -2px;
+            padding-bottom: 0;
+            margin-bottom: 10px;
+            margin-top: 0;
+            margin-left: 28px;
+            font-family: 'Neuton', serif;
+            color: white;
+        }
+        .grid-item {
+            font-size: 8px;
+            text-align: left;
+            color: white;
+            padding-left: 5px;
+        }
+    }
